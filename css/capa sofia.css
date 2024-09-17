@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 5%;
+
+}
+header .btn-contato button, .hero-site button, .gatos button {
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 60%;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+header .btn-contato button:hover, .hero-site button:hover, .gatos button:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+/* ESTILO DO HEADER */
+
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    transition: .5s;
+    z-index: 9999999999999999999999999999;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 40px;
+
+}
+/* Estilo do menu dinâmico */
+
+header .logo img.logo-preta{
+    display: none;
+}
+
+header.rolar{
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 0 8px #00000062;
+}
+header.rolar .menu-desktop nav ul li a{
+    color: #000;
+}
+header.rolar .btn-contato button{
+    border: 1px solid #000;
+    color: #000;
+}
+header.rolar .btn-contato button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+header.rolar .logo .logo-branca{
+    display: none;
+}
+header.rolar .logo .logo-preta{
+    display: block;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header .menu-desktop nav ul li a{
+       color: #fff;
+       text-decoration: none;
+       display: inline-block;
+       transition: 0.2s;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+
+
+}
+section.hero-site{
+    height: 98vh;
+    background-image: url(../img/WhatsApp\ Image\ 2024-09-11\ at\ 20.08.23\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+
+}
+
+.hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 70%;
+
+}
+.hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+.hero-site .txt-hero h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.hero-site .txt-hero p{
+    display: block;
+}
+.hero-site button{
+    width: 220px ;
+    height: 60px;
+    font-size: 20px;
+}
+/* Estilo do rodapé */
+footer{
+    background-color: #28252e;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+footer .top-footer button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .5s;
+}
+footer .top-footer button:hover{
+    background-color: #fff;
+    color: #fff;
+}
+
+footer  .middle-footer{
+    margin: 20px 0;
+}
+
+footer .middle-footer a{
+    color: #fff;
+    margin: 0 15px;
+}
+footer .bottom-footer p{
+    color: #fff;
+    margin-top: 10px;
+}
+footer .bottom-footer{
+    border-top: 2px solid #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}

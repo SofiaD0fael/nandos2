@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 5%;
+
+}
+header .btn-contato button, .hero-site button, .gatos button {
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 60%;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+header .btn-contato button:hover, .hero-site button:hover, .gatos button:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+/* ESTILO DO HEADER */
+
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    transition: .5s;
+    z-index: 9999999999999999999999999999;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 40px;
+
+}
+/* Estilo do menu dinâmico */
+
+header .logo img.logo-preta{
+    display: none;
+}
+
+header.rolar{
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 0 8px #00000062;
+}
+header.rolar .menu-desktop nav ul li a{
+    color: #000;
+}
+header.rolar .btn-contato button{
+    border: 1px solid #000;
+    color: #000;
+}
+header.rolar .btn-contato button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+header.rolar .logo .logo-branca{
+    display: none;
+}
+header.rolar .logo .logo-preta{
+    display: block;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header .menu-desktop nav ul li a{
+       color: #fff;
+       text-decoration: none;
+       display: inline-block;
+       transition: 0.2s;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+
+
+}
+
+
+
+
+body { 
+    background-image: url(../img/WhatsApp\ Image\ 2024-09-11\ at\ 20.08.23\ \(3\).jpeg); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;               /* Utiliza Flexbox para centralizar o conteúdo */
+    justify-content: center;     /* Alinha horizontalmente ao centro */
+    align-items: center;         /* Alinha verticalmente ao centro */
+    height: 20vh;               /* Faz com que o container ocupe toda a altura da viewport */
+    padding: 0 110px;
+    font-family: cursive;
+    color: #464646fc;
+}
+
+
+    
+  
+ .fixar {
+    padding: 0 110px;
+    font-family: cursive;
+    color: #464646fc;
+}
+ 
+
+h1 {
+    font-size: 3rem;
+    color: #000000fc;
+    text-shadow: 2px 2px 4px rgba(0, 4, 255, 0.2);
+    background: linear-gradient(45deg, #9f4301, #723b00fc );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:  25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p {
+    font-size: 2rem;
+    color: #000000fc;
+    text-shadow: 2px 2px 4px rgba(0, 4, 255, 0.2);
+    background: linear-gradient(45deg, #9f4301, #723b00fc );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:  25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.caixa {
+    border: 3px solid #673700; /* Espessura, estilo e cor da borda */
+    padding: 10px; /* Espaçamento interno */
+    /* text-align: center; Alinhamento do texto */
+    background-color: transparent; /* Cor de fundo do título */
+    border-radius: 8px; /* Arredondamento dos cantos da borda */
+    margin: 100px; /* Espaçamento externo */
+}
+.dentro-caixa {
+    display: flex;               /* Utiliza Flexbox para centralizar o conteúdo */
+    justify-content: center;     /* Alinha horizontalmente ao centro */
+    align-items: center;         /* Alinha verticalmente ao centro */
+    padding: 0 10px auto auto ;
+    font-family: cursive;
+    color: #464646fc;
+}
+
+.redirect-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.redirect-button:hover {
+    background-color: #0056b3;
+}
+
+
