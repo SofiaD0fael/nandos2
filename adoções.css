@@ -1,0 +1,122 @@
+body { 
+    background-image: url('https://i.pinimg.com/originals/42/3e/fb/423efb40971cefe3c27d6ace0ad2f155.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;               /* Utiliza Flexbox para centralizar o conteúdo */
+    justify-content: center;     /* Alinha horizontalmente ao centro */
+    align-items: center;         /* Alinha verticalmente ao centro */
+    height: 20vh;               /* Faz com que o container ocupe toda a altura da viewport */
+    padding: 15px 110px;
+    font-family: cursive;
+    color: #464646fc;
+    font-size: 1.3em;
+}
+
+
+    
+  
+ .fixar {
+    padding: 0 110px;
+    font-family: cursive;
+    color: #464646fc;
+}
+ 
+
+h1 {
+    font-size: 3rem;
+    color: #000000fc;
+    text-shadow: 2px 2px 4px rgba(0, 4, 255, 0.2);
+    background: linear-gradient(45deg, #0084a9, #00858dfc );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:  25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p {
+    display: flex;               /* Utiliza Flexbox para centralizar o conteúdo */
+    justify-content: center;     /* Alinha horizontalmente ao centro */
+    align-items: center;         /* Alinha verticalmente ao centro */
+    font-family: cursive;
+    color:#0084a9;
+    font-size: 35px;
+}
+.caixa {
+    border: 3px solid #3498db; /* Espessura, estilo e cor da borda */
+    padding: 10px; /* Espaçamento interno */
+    /* text-align: center; Alinhamento do texto */
+    background-color: transparent; /* Cor de fundo do título */
+    border-radius: 8px; /* Arredondamento dos cantos da borda */
+    margin: 100px; /* Espaçamento externo */
+}
+.caixa1 {
+    border: 3px solid #3498db; /* Espessura, estilo e cor da borda */
+    padding: 5px; /* Espaçamento interno */
+    text-align: center;
+    background-color: transparent; /* Cor de fundo do título */
+    border-radius: 8px; /* Arredondamento dos cantos da borda */
+    margin: 10px; /* Espaçamento externo */
+}
+.caixa2 {
+    border: 3px solid #3498db; /* Espessura, estilo e cor da borda */
+    padding: 5px; /* Espaçamento interno */
+    text-align: center;
+    background-color: transparent; /* Cor de fundo do título */
+    border-radius: 8px; /* Arredondamento dos cantos da borda */
+    margin: 10px; /* Espaçamento externo */
+}
+.h2 {
+    display: flex;               /* Utiliza Flexbox para centralizar o conteúdo */
+    justify-content: center;     /* Alinha horizontalmente ao centro */
+    align-items: center;         /* Alinha verticalmente ao centro */
+    padding: 0 10px auto auto ;
+    font-family: cursive;
+    color: #3498db;
+}
+.h4 {
+    display: flex;               /* Utiliza Flexbox para centralizar o conteúdo */
+    justify-content: center;     /* Alinha horizontalmente ao centro */
+    align-items: center;         /* Alinha verticalmente ao centro */
+    padding: 0 10px auto auto ;
+    font-family: cursive;
+    color: #3498db;
+}
+
+
+.centro {
+    text-align: center;
+    font-size: 25px;
+}
+
+.redirect-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.redirect-button:hover {
+    background-color: #0056b3;
+}
